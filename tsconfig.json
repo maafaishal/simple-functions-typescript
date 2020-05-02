@@ -27,5 +27,5 @@
     "suppressImplicitAnyIndexErrors": true,
     "target": "es2015"
   },
-  "exclude": ["node_modules", "dist", "**/__tests__/**"]
+  "include": ["lib"],
 }

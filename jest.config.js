@@ -3,7 +3,7 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: [
     '!**/dist/**',
-    '!**/__tests__/**',
+    '!**/test/**',
     '!**/coverage/**',
     '!**/babel.config.js',
     '!**/jest.config.js',
@@ -17,6 +17,6 @@ module.exports = {
   ],
   testEnvironment: "node",
   testMatch: [
-    "**/__tests__/**/*.[jt]s?(x)",
+    "**/test/**/*.[jt]s?(x)",
   ],
 };

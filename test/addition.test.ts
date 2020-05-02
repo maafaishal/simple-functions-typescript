@@ -1,4 +1,4 @@
-import addition from '../addition'
+import addition from '../lib/addition'
 
 describe('addition', () => {
   it('calculates properly', () => {
