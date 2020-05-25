@@ -1,11 +1,5 @@
-const sort = (arrayData: string[] | number [] | [], isAscending = true) => {
-  if(isAscending) {
-    // ascending
-    return arrayData.sort()
-  }
-
-  // descending
-  return arrayData.sort().reverse()
+const sortNumber = (arrayData: number [] | [], isAscending = true) => {
+    return arrayData.sort((a: number, b: number) => isAscending ? a - b : b - a)
 }
 
-export default sort
+export default sortNumber
